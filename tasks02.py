@@ -40,8 +40,8 @@ if 'E' in var5:
     print('pass')
 
 # Запросить данные у пользователя и распечатать их используя  форматированную строку.
-# var6 = input("Enter number 0-9: ")
-# print("I {a}like number {b}".format(a="" if var6 == '5' else "don't ", b=var6))
+var6 = input("Enter number 0-9: ")
+print("I {a}like number {b}".format(a="" if var6 == '5' else "don't ", b=var6))
 
 # Распечатать содержимое файла.
 print('-'*20)
