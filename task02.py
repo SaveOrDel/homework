@@ -45,7 +45,7 @@ print("I {a}like number {b}".format(a="" if var6 == '5' else "don't ", b=var6))
 
 # Распечатать содержимое файла.
 print('-'*20)
-with open('task1.py', encoding='UTF8') as readfile:
+with open('task01.py', encoding='UTF8') as readfile:
     print(readfile.read())
 print('-'*20)
 
